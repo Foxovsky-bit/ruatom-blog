@@ -1,0 +1,13 @@
+.article {
+  border-radius: 10px;
+  margin: 0 auto 10px;
+  width: 1200px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  overflow-wrap: break-word;
+  
+  &:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+}

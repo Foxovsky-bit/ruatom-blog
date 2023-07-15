@@ -1,0 +1,49 @@
+.article-page-wrapper {
+  background-color: rgba(178, 181, 223, 0.76);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.article-card {
+  border-radius: 10px;
+  margin: 0 auto 10px;
+  width: 1200px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  overflow-wrap: break-word;
+  min-height: 80vh;
+}
+
+.article-title {
+  font-size: 40px;
+}
+
+.article-content {
+  font-size: 30px;
+}
+
+.button-edit {
+  background-color: #4e94fc;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: #93beff;
+    cursor: pointer;
+  }
+}
+
+.edit-submit {
+  background-color: #4e94fc;
+  color: black;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+
+  &:hover {
+    background-color: #93beff;
+    cursor: pointer;
+  }
+}
